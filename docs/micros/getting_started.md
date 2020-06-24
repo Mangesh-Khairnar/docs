@@ -245,7 +245,7 @@ Open up your endpoint in a browser. You might be prompted to log in to your deta
 
 You should see **Hello, World**
 
-If you're accessing the endpoint from not in a browser (like from curl) or if you have disabled cookies in your browser, the response will be:
+If you are not accessing the endpoint not from a browser (like with `curl`) or if you have disabled cookies in your browser, the response will be:
 ```json
 {
     "errors":["Unauthorized"]
